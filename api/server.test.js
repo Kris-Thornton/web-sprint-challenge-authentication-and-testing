@@ -3,7 +3,7 @@ const Users = require('./auth/auth-model')
 
 
 test('is NODE_ENV set correctly', () => {
-  expect(process.env.NODE_ENV).toBe('development');
+  expect(process.env.NODE_ENV).toBe('testing');
 });
 
 beforeAll(async () => {
